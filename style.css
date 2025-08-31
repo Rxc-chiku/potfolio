@@ -1,0 +1,70 @@
+.add {
+            font-size: 50px;
+        }
+
+        .note {
+            font-size: 20px;
+    }
+
+.photo{
+    border-radius: 30px;
+}
+
+
+        @media (max-width: 767px) {
+
+            
+            .container-fluid {
+                padding: 10px;
+                text-align: center;
+                
+            }
+
+            .add {
+                font-size: 18px;
+                font-weight: 500;
+                margin-bottom: 4px;
+                color: #444;
+            }
+
+            .note {
+                font-size: 26px;
+                font-weight: 700;
+                margin-bottom: 8px;
+                color: #111;
+            }
+
+            .info {
+                font-size: 14px;
+                line-height: 1.5;
+                margin-bottom: 12px;
+                color: #666;
+            }
+
+            .photo {
+                width: 100% !important;
+                max-width: 380px;
+                height: auto;
+                display: block;
+                margin: 6px auto;
+                border-radius: 12px;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+            }
+
+            
+            .btn {
+                width: 100%;
+                max-width: 220px;
+                margin: 6px auto;
+                padding: 10px 16px;
+                font-size: 14px;
+                border-radius: 25px;
+                box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            }
+
+            .col-8,
+            .col-4 {
+                width: 100% !important;
+                text-align: center;
+            }
+        }
